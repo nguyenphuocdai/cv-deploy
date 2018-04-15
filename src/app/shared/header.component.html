@@ -1,63 +1,52 @@
 <header>
-    <!-- Main company header -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-3">
-                    <!-- START LOGO -->
-                    <div class="logo">
-                        <a href="index.html">Curriculum Vitae</a>
-                    </div>
-                    <!-- END LOGO -->
-                </div>
-                <div class="col-xs-9">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-top">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-
-
-                        <!-- Top navigation buttons, visible only in extra small mode -->
-                        <a class="visible-xs bb-nav-prev navbar-brand navbar-brand-pagination" href="#">
-                            <i class="fa fa-angle-left"></i>
-                        </a>
-                        <a class="visible-xs bb-nav-next navbar-brand navbar-brand-pagination" href="#">
-                            <i class="fa fa-angle-right"></i>
-                        </a>
-                        <!-- /Top navigation buttons -->
-
-                    </div>
-                    <div class="collapse navbar-collapse" id="nav-top">
-                        <ul class="nav navbar-nav navbar-right" id="menu">
-                            <li>
-                                <a routerLink="/about">About</a>
-                            </li>
-                            <li>
-                                <a routerLink="/skill">Skills</a>
-                            </li>
-                            <li>
-                                <a routerLink="/education">Education</a>
-                            </li>
-                            <li>
-                                <a routerLink="/experience">Experience</a>
-                            </li>
-                            <li>
-                                <a routerLink="/portfolio">Portfolio</a>
-                            </li>
-                            <li>
-                                <a routerLink="/contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /navbar-collapse -->
-                </div>
-            </div>
-            <!--/row-->
+  <!-- Main company header -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3">
+          <!-- START LOGO -->
+          <div class="logo">
+            <a href="index.html">Curriculum Vitae</a>
+          </div>
+          <!-- END LOGO -->
         </div>
-        <!-- /container -->
-    </nav>
-    <!--/nav-->
+        <div class="col-xs-6 col-sm-9 col-md-9">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-top">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div>
+          <!-- /navbar-collapse -->
+        </div>
+        <div class="collapse navbar-collapse config--width" id="nav-top">
+          <ul class="nav navbar-nav navbar-right" id="menu">
+            <li data-toggle="nav-top">
+              <a routerLink="/about">About</a>
+            </li>
+            <li>
+              <a routerLink="/skill">Skills</a>
+            </li>
+            <li>
+              <a routerLink="/education">Education</a>
+            </li>
+            <li>
+              <a routerLink="/experience">Experience</a>
+            </li>
+            <li>
+              <a routerLink="/portfolio">Portfolio</a>
+            </li>
+            <!-- <li>
+                                                    <a routerLink="/contact">Contact</a>
+                                                </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--/nav-->
 </header>
